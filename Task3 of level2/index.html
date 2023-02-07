@@ -1,0 +1,43 @@
+
+<!--------------------  A BASIC TO-DO WEBAPP -------------------------
+  Develop a basic to-do app that enables a user to add daily tasks.
+
+The to-do web app must allow users to add new items to a list, and items added to a list must be visible. Also, a user can mark a task “complete” upon its successful completion, and these completed tasks must appear on a separate list, say Completed Tasks.
+You can also add a separate section titled Pending Tasks that will list all the tasks that require completion. In such a case, the to-do list will be a union of the Pending Tasks list and the Completed Tasks list. Irrespective of the list, a user must be able to delete or edit tasks from it.
+To further increase the web app's complexity or make it more detailed, you can add the date and time when a task is added and/or completed -->
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">  
+    <title>Todo List App </title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+
+    
+    <div class="wrapper">
+      <div class="task-input">
+       
+        <input type="text" placeholder="Add a new task">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
