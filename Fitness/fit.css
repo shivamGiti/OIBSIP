@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/23/11/57/girl-3253532_960_720.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+
+
+}
+
+.navbar-brand img {
+    width: 70px;
+    margin-top: 10px;
+}
+
+.navbar-nav li a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff !important;
+    float: right;
+
+}
+
+.navbar-toggler {
+    margin-top: -20px;
+    border: none !important;
+    outline: none !important;
+}
+
+nav .bi {
+    color: white;
+    font-size: 30px;
+}
+
+
+/* --------------- Welcome section---------------- */
+/* #welcome{
+    border: 3px solid black;
+} */
+.welcome {
+    padding: 50px 100px;
+    margin-top: -125px;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.3);
+}
+
+.welcome h1 {
+    color: #333;
+}
+
+.welcome .home-btn {
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #013f7e;
+    ;
+}
+
+/* ------------------- ABOUT --------------------- */
+
+#about {
+    padding: 100px 0px;
+}
+
+#about .col-md-6 {
+    padding: 20px 10px;
+
+}
+
+.col-md-6 img {
+    width: 400px;
+    padding-right: 20px;
+
+
+}
+
+#about h3 {
+    margin: 20px auto;
+}
+
+
+
+/* ------------ SERVICES ----------------- */
+
+.services {
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.services .col-md-4 {
+    padding: 20px;
+}
+
+.services .col-md-4 h4 {
+    padding: 20px;
+}
+
+.services .col-md-4 p {
+    padding: 5px;
+    text-align: justify;
+}
+
+/* ------------- Features -------------------- */
+#features {
+    padding: 100px 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://goldsgym.in/uploads/blog/compress-strong-man-training-gym-min.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+
+}
+
+#features .col-md-6 {
+    padding: 20px;
+}
+
+
+.feature-box {
+    height: 120px;
+
+}
+
+.feature-box .feature-left {
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+
+.feature-box .feature-left .bi {
+    padding-top: 13px;
+    font-size: 50px;
+}
+
+.feature-box .feature-right {
+    height: 120px;
+    width: 80%;
+    float: left;
+
+}
+
+.feature-box .feature-right h4 {
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.feature-box .feature-right h4 p {
+
+    padding-left: 15px;
+    text-align: left;
+}
+
+/* **************** Testimonials  ********************** */
+
+#testimonials {
+    /* border:3px solid black; */
+    padding: 100px 0px;
+}
+
+.img-fluid {
+    width: 100px;
+
+
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    border: 5px solid #fff;
+
+}
+
+#testimonials .col-md-4 {
+    padding: 10px 30px;
+}
+
+.review {
+    font-size: 18px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.bi {
+    font-size: 30px;
+    color: #1f6cb9;
+
+}
+
+.review span {
+    color: rgb(40, 44, 236);
+
+}
+
+#testimonials h1 {
+    margin-bottom: 20px;
+    color: rgb(48, 48, 197);
+}
+
+.para {
+    margin: 20px 0px;
+    color: rgb(230, 66, 66);
+    font-size: 18px;
+}
+
+/* ------------------ Subscribe -------------------- */
+#subscribe {
+    padding: 50px 0px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    margin-bottom: -160px;
+}
+
+
+.subscribe .input-group {
+    border: 4px solid black;
+    margin: auto auto;
+    border-radius: 30px;
+    background-color: #fff;
+    max-width: 500px;
+    padding: 5px;
+}
+.subscribe .form-control{
+    border: none;
+    background: transparent; 
+}
+.subscribe .form-control:focus{
+    box-shadow: none;
+    background: transparent;
+}
+.subscribe .input-group-append{
+    background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+    border-radius:40px !important;
+    border: 2px solid black;
+   
+}
+.subscribe .input-group-text{
+    background: transparent;
+    border: none;
+    color: white;
+    box-shadow: none;
+}
+
+
+
+/* ----------- FOOTER -------------------- */
+#footer{
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #013f7e;
+}
+
+.footer-logo{
+    width: 110px;
+    height: 60px;
+    margin-top: 25px;
+    margin-bottom:15px;
+}
+#footer h1{
+    font-size: 25px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom:45px ;
+}
+#footer p{
+    font-size: 16px;
+    text-align: left;
+}
+
+#footer .city{
+    margin-left: 40px;
+
+}
+
+#footer .row .bi{
+    padding-right:20px;
+    font-size: 18px;
+}
+
+.footer hr{
+    margin-top: 10px;
+
+}
+.copyright .bi {
+    color: red;
+    font-size: 18px;
+
+}
+
+#footer .copyright{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+}
